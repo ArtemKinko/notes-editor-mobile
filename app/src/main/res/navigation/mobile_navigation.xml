@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_weather">
+
+    <fragment
+        android:id="@+id/navigation_weather"
+        android:name="com.artemkinko.lab4_8.ui.weather.WeatherFragment"
+        android:label="@string/title_weather"
+        tools:layout="@layout/fragment_weather" />
+
+    <fragment
+        android:id="@+id/navigation_pages"
+        android:name="com.artemkinko.lab4_8.ui.pages.PagesFragment"
+        android:label="@string/title_pages"
+        tools:layout="@layout/fragment_pages" />
+
+    <fragment
+        android:id="@+id/navigation_write"
+        android:name="com.artemkinko.lab4_8.ui.write.WriteFragment"
+        android:label="@string/title_write"
+        tools:layout="@layout/fragment_write" />
+
+    <fragment
+        android:id="@+id/navigation_document"
+        android:name="com.artemkinko.lab4_8.ui.document.DocumentFragment"
+        android:label="@string/title_document"
+        tools:layout="@layout/fragment_document" />
+</navigation>

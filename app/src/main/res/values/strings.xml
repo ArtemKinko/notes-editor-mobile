@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Notes Editor</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_weather">Weather</string>
+    <string name="title_pages">Pages</string>
+    <string name="title_write">New page</string>
+    <string name="title_document">New photo</string>
+</resources>
